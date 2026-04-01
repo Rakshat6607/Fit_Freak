@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fit Freak – Smart Diet & Meal Planner</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-inner">
+            <div class="logo">
+                <span class="logo-icon">🔥</span>
+                <div>
+                    <h1 class="logo-title">FIT FREAK</h1>
+                    <p class="logo-sub">Smart Diet & Meal Planner</p>
+                </div>
+            </div>
+            <p class="header-tagline">Find recipes. Track macros. Crush goals.</p>
+        </div>
+    </header>
+
+    <main class="main">
+
+        <section class="search-section">
+            <div class="search-wrapper">
+                <input type="text" id="searchInput" class="search-input" placeholder="Search recipes... e.g. chicken, pasta, salad" />
+                <button id="searchBtn" class="search-btn">SEARCH</button>
+            </div>
+        </section>
+
+        <div id="errorMsg" class="error-msg hidden"></div>
+
+        <div id="loadingIndicator" class="loading hidden">
+            <div class="spinner"></div>
+            <p>Fetching recipes...</p>
+        </div>
+
+        <section id="recipesContainer" class="recipes-grid"></section>
+
+    </main>
+
+    <footer class="footer">
+        <p>Fit Freak © 2025 &nbsp;|&nbsp; Powered by Spoonacular API</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
