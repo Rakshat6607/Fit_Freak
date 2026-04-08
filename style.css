@@ -135,6 +135,90 @@ body {
     transform: scale(0.97);
 }
 
+.filter-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.filter-select {
+    padding: 10px 16px;
+    background-color: var(--dark3);
+    border: 1.5px solid var(--border);
+    border-radius: 8px;
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.85rem;
+    outline: none;
+    cursor: pointer;
+    transition: border-color 0.2s, background-color 0.2s;
+    min-width: 140px;
+}
+
+.filter-select:focus, .filter-select:hover {
+    border-color: var(--green);
+    background-color: var(--dark2);
+}
+
+.card-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 18px;
+    padding-top: 15px;
+    border-top: 1px solid var(--border);
+}
+
+.action-btns-left {
+    display: flex;
+    gap: 10px;
+}
+
+.action-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: var(--muted);
+    transition: transform 0.2s, color 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.action-btn:hover {
+    transform: scale(1.2);
+}
+
+.action-btn.liked {
+    color: var(--red);
+}
+
+.action-btn.favorited {
+    color: #ffcc00;
+}
+
+.view-recipe-btn {
+    padding: 8px 14px;
+    background-color: transparent;
+    border: 1px solid var(--green);
+    color: var(--green);
+    border-radius: 6px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+    text-decoration: none;
+}
+
+.view-recipe-btn:hover {
+    background-color: var(--green);
+    color: var(--dark);
+}
+
 .error-msg {
     max-width: 680px;
     margin: 0 auto 28px auto;

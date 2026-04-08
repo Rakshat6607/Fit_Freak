@@ -29,6 +29,30 @@
                 <input type="text" id="searchInput" class="search-input" placeholder="Search recipes... e.g. chicken, pasta, salad" />
                 <button id="searchBtn" class="search-btn">SEARCH</button>
             </div>
+            <div class="filter-wrapper">
+                <select id="dietFilter" class="filter-select">
+                    <option value="">All Diets</option>
+                    <option value="vegetarian">Vegetarian</option>
+                    <option value="vegan">Vegan</option>
+                    <option value="gluten free">Gluten Free</option>
+                    <option value="ketogenic">Keto</option>
+                    <option value="paleo">Paleo</option>
+                </select>
+                <select id="cuisineFilter" class="filter-select">
+                    <option value="">All Cuisines</option>
+                    <option value="italian">Italian</option>
+                    <option value="american">American</option>
+                    <option value="asian">Asian</option>
+                    <option value="mexican">Mexican</option>
+                    <option value="mediterranean">Mediterranean</option>
+                </select>
+                <select id="sortOrder" class="filter-select">
+                    <option value="relevancy">Most Relevant</option>
+                    <option value="calories">Lowest Calories</option>
+                    <option value="protein">Highest Protein</option>
+                    <option value="time">Quickest</option>
+                </select>
+            </div>
         </section>
 
         <div id="errorMsg" class="error-msg hidden"></div>
