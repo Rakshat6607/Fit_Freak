@@ -83,8 +83,6 @@ fit-freak-meal-planner/
 ├── index.html
 ├── style.css
 ├── script.js
-├── assets/
-│   └── images/
 ├── README.md
 ```
 
@@ -113,15 +111,7 @@ fit-freak-meal-planner/
 
 ---
 
-## Milestones
-
-* Milestone 1: Project setup and planning
-* Milestone 2: API integration
-* Milestone 3: Search, filter, and sort features
-* Milestone 4: Deployment
-
----
 
 ## Objective
 
-To demonstrate JavaScript fundamentals, API integration, and UI development by building a responsive and interactive web application.
+To demonstrate JavaScript fundamentals, API integration, and UI development by building a responsive and interactive web application helping young generation to get fit by FIt_Freak.
